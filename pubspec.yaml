@@ -1,0 +1,25 @@
+name: badminton
+description: "A new Flutter project for Badminton Club Management."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 폐하, 이 아래의 들여쓰기(두 칸)를 눈여겨보아 주소서.
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.17.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
